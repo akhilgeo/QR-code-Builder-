@@ -2,7 +2,7 @@
 
 `QR Code Builder` is a utility tool developed using python, to Build QR codes with custom encoded text.
 
-![GIF demo](img/demo.gif)
+![GIF demo](img/Demo.gif)
 
 
 **About QR Code Builder**
