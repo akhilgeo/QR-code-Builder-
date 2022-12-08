@@ -1,32 +1,24 @@
 ![stronghold logo](/img/logo.png)
 
-`Password Masher` is a utility tool developed using python, which converts your password into a strong password.
+`QR Code Builder` is a utility tool developed using python, to Build QR codes with custom encoded text.
 
 ![GIF demo](img/demo.gif)
 
 
-**About Password Masher**
+**About QR Code Builder**
 ---
 
-There are many password generators available online. Most of them generate random strings as passwords which might be hard to remember and generated only once. To Overcome that problem I tried to create this tool.
+There are many QR Code generators available online. This is a QR Code you could run on your local machine, to generate the desired QR code at you convinence.
 
-The GUI Interface, is very simple. It consists of a secret Key - which you need to enter. This is the only thing which you need to remember. Once you enter the secret key select the website for which you need the password and click on generate.
-
-Based on your secret key and webiste, it generates a complex password. The best part is that even if you forgets the password, you can rerun the tool and generate the same password again.
-
-Periodically you can change your secret key and generate unique password for each sites.
+The GUI Interface, is very simple. It consists of a secret Key - which you need to enter the text to be encoded and click on Build.
 
 **Features**
 ---
 
-1. Generates complex passwords
-2. Different password for each site based on Secret key
-3. The character preferences can be modified in the code
-4. More webistes can be added based on your preference
-5. Password is auto copied into your clipboard
-6. Runs on your local machine without any need for internet
-7. No databases involved
-8. easy set up
+1. Generates QR Code
+2. Runs on your local machine without any need for internet
+3. No databases involved
+4. easy set up
 
 
 **Packages Used**
@@ -36,9 +28,8 @@ Periodically you can change your secret key and generate unique password for eac
      + `$ pip install tkinter`
 2. [`PIL`](https://www.pythonware.com/products/pil/)
      + `$ pip install PIL`
-3. [`pyperclip`](https://pypi.org/project/pyperclip/)
-     + `$ pip install pyperclip`
-
+3.  [`QRCode`](https://www.pythonware.com/products/pil/) 
+  + `$ pip install QRCode`
 
 
 
@@ -57,7 +48,7 @@ Periodically you can change your secret key and generate unique password for eac
 **How to Contribute**
 ---
 
-1. Fork it (<https://github.com/akhilgeo/Password-Masher/fork>)
+1. Fork it (<https://github.com/akhilgeo/QR-code-Builder-/fork>)
 2. Create your feature branch
 3. Commit your changes
 4. Push to the branch
